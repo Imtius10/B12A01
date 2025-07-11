@@ -16,6 +16,18 @@
     color: white;
     border-radius: 10px;
     padding: 12px 36px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.btn:hover {
+    background-color: mediumturquoise;
+    transform: scale(1.03);
+    cursor: pointer;
 }
 
 .banner-logo {
@@ -25,7 +37,7 @@
 
 .banner-title {
     font-size: 65px;
-    font-weight: bold;
+    font-weight: 800;
     color: rgba(37, 36, 50, 1);
     padding-left: 268px;
     padding-right: 268px;
@@ -67,18 +79,17 @@
 .inter {
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
-    font-weight: bold;
-    font-style: normal;
-    font-variation-settings:
-        "wdth" 100;
+    font-weight: auto;
+    font-style: auto;
+
 }
 
 
 .raleway {
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
-    font-weight: normal;
-    font-style: normal;
+    font-weight: auto;
+    font-style: auto;
 }
 
 /* live Action */
@@ -106,26 +117,32 @@
 
 /* Active user */
 
+.active-user {
+    display: block;
+}
 
 .user-details {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding-bottom: 10px;
+    margin-bottom: 2px;
+
 
 }
 
 .users {
     background-color: rgba(78, 71, 255, 0.1);
+
     border-radius: 24px;
-    margin-left: 141px;
-    margin-right: 159px;
+    margin: 50px 200px 50px 200px;
 }
 
 .u-title {
     text-align: center;
-    padding-left: 160px;
-    padding-right: 142px;
-    padding-top: 50px;
+    padding-top: 70px;
+    margin-bottom: 10px;
+
     font-size: 38px;
     font-weight: bold;
     color: rgba(37, 36, 50, 1);
@@ -136,6 +153,12 @@
     font-size: 80px;
     font-weight: bold;
     color: rgba(78, 71, 255, 1);
+    margin-bottom: 10px;
+}
+
+.live-sub-title {
+    padding-bottom: 20px;
+    margin-top: 10px;
 }
 
 /* Review section */
@@ -177,6 +200,7 @@
 }
 
 .r-img {
+    padding-left: 12px;
     border-radius: 100px;
 }
 
@@ -196,8 +220,8 @@
 .event-starter {
     justify-content: center;
     align-items: center;
-   
-   
+
+
 }
 
 .event-ig {
@@ -214,11 +238,11 @@
     padding-right: 142px;
     padding-top: 50px;
     border-radius: 14px;
-     border: 1px solid #F2EDED;
-     margin-left: 151px;
-     margin-top: 137px;
-     margin-right: 159px;
-     
+    border: 1px solid #F2EDED;
+    margin-left: 151px;
+    margin-top: 137px;
+    margin-right: 159px;
+
 }
 
 .get {
@@ -238,44 +262,69 @@
 .this {
     color: rgba(0, 0, 0, 0.5);
 }
+
 /* form */
-.login-title{
+.f-title {
+    text-align: center;
+    padding-top: 70px;
+    margin-bottom: 10px;
+
+    font-size: 80px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 1);
+}
+
+.breaker {
+    display: block;
+    text-align: left;
+}
+
+.login-title {
     display: flex;
     justify-content: space-around;
     margin-top: 93px;
     margin-left: 150px;
     margin-right: 150px;
-   
+
 }
+
 .login-form input[type="text"],
 .login-form input[type="email"],
 .login-form textarea {
-  height: 60px;
-  border-radius: 5px;
-  background-color: white;
-  display: block;
-  width: 300px;
-  padding: 10px 20px;
-  margin-bottom: 24px;
-  box-sizing: border-box;
-  border: 2px solid #F2EDED
+    height: 60px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 300px;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    box-sizing: border-box;
+    border: 2px solid #F2EDED
 }
-.login-form textarea{
+
+.login-form textarea {
     height: 100px;
     border: 2px solid #F2EDED
 }
-.last-btn{
-    background-color: #4E47FF;
-    color: white;
-    width: 300px;
-    border-radius: 10px;
-    padding: 12px 36px;
+
+.last-btn {
+  background-color: #4E47FF;
+  color: white;
+  width: 300px;
+  border-radius: 10px;
+  padding: 12px 36px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
+.last-btn:hover {
+  background-color: mediumturquoise; 
+  transform: scale(1.03);    
+  cursor: pointer;          
+}
 
 /* footer */
-.logo-color{
-     text-align: center;
+.logo-color {
+    text-align: center;
     padding-left: 160px;
     padding-right: 142px;
     padding-top: 50px;
@@ -283,26 +332,38 @@
     font-weight: bold;
     color: rgba(78, 71, 255, 1);
 }
-.f-description{
+
+.f-description {
     text-align: center;
-     
+
     color: rgba(137, 135, 161, 1);
 }
-nav ul li {
-  
+
+ ul li {
+
     list-style: none;
     margin: 20px;
+   
 
 }
 
-nav li a {
+ li a {
     text-decoration: none;
+    color: rgba(137, 135, 161, 1);
 }
 
-nav ul {
-    display: flex;
-    
-}
-.ul-pos{
+.end-list{
      justify-content: center;
+    align-items: center;
+}
+
+.ul-pos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 5px;
 }
