@@ -1,26 +1,29 @@
 /* Banner */
-.banner{
+.banner {
     background-image: url(../Assets/Hero-bg.png);
 }
-.navi{
+
+.navi {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-left: 150px;
     padding-right: 150px;
 }
-.btn{
+
+.btn {
     background-color: #4E47FF;
     color: white;
     border-radius: 10px;
     padding: 12px 36px;
 }
-.banner-logo{
+
+.banner-logo {
     font-size: 40px;
-    color:  #4E47FF;
+    color: #4E47FF;
 }
 
-.banner-title{
+.banner-title {
     font-size: 65px;
     font-weight: bold;
     color: rgba(37, 36, 50, 1);
@@ -30,7 +33,8 @@
 
     align-items: center;
 }
-.stay{
+
+.stay {
     background-color: #4E47FF;
     color: white;
     border-radius: 12px;
@@ -39,7 +43,8 @@
 
 
 }
- /* .stay {
+
+/* .stay {
   padding: 6px 12px;
   font-size: 14px;
   background-color: #4CAF50;
@@ -49,69 +54,74 @@
   cursor: pointer;
 } */
 .banner-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
-  text-align: center;
-  padding-bottom: 152px;
+    text-align: center;
+    padding-bottom: 152px;
 }
 
 /* Font */
 .inter {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: bold;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
 
 
 .raleway {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: normal;
-  font-style: normal;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
 }
+
 /* live Action */
-.live-action{
+.live-action {
     display: flex;
     justify-content: space-between;
     padding-left: 141px;
     padding-right: 159px;
-     padding-top: 116px;
+    padding-top: 116px;
     /*padding-bottom: 116px; */
 }
-.live-title{
+
+.live-title {
     font-size: 42px;
     font-weight: 600;
 }
-.live-sub-title{
+
+.live-sub-title {
     color: rgba(37, 36, 50, 0.5);
 }
-.wc-mini{
+
+.wc-mini {
     border-radius: 48px;
 }
 
 /* Active user */
 
 
-.user-details{
+.user-details {
     display: flex;
-     justify-content: space-around;
+    justify-content: space-around;
     align-items: center;
 
 }
+
 .users {
-  background-color: rgba(78, 71, 255, 0.1);
-  border-radius: 24px;
-  margin-left: 141px;
-  margin-right: 159px;
+    background-color: rgba(78, 71, 255, 0.1);
+    border-radius: 24px;
+    margin-left: 141px;
+    margin-right: 159px;
 }
 
-.u-title{
+.u-title {
     text-align: center;
     padding-left: 160px;
     padding-right: 142px;
@@ -122,48 +132,177 @@
 
 }
 
-.shared-color{
+.shared-color {
     font-size: 80px;
     font-weight: bold;
     color: rgba(78, 71, 255, 1);
 }
 
 /* Review section */
-.review-content{
+.review-content {
     display: flex;
     justify-content: space-around;
     margin-left: 151px;
     margin-right: 149px;
 }
+
 /* shared */
-.text-item{
+.text-item {
     font-size: 30px;
     font-weight: 700;
-     padding-left: 24px;
+    padding-left: 24px;
 }
- .r-description{
+
+.r-description {
     font-size: 20px;
     font-weight: 300;
     padding-left: 24px;
- }
- .pad{
-    padding-left: 24px; 
- }
-.user-review {
-  display: flex;             
-  align-items: center;         
-  gap: 15px;                   
 }
- .reviewer-name{
-     padding-left: 40px;
-     font-weight: 700;
-     color: rgba(117, 117, 117, 1);
- }
 
- .r-img{
+.pad {
+    padding-left: 24px;
+    padding-top: 24px;
+}
+
+.user-review {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.reviewer-name {
+    padding-left: 40px;
+    font-weight: 700;
+    color: rgba(117, 117, 117, 1);
+}
+
+.r-img {
     border-radius: 100px;
- }
- .date{
+}
+
+.date {
     font-size: 20px;
     color: rgba(179, 179, 179, 1);
- }
+}
+
+.review-title {
+    border-radius: 14px;
+    border: 1px solid #F2EDED;
+
+}
+
+/* Event starter */
+
+.event-starter {
+    justify-content: center;
+    align-items: center;
+   
+   
+}
+
+.event-ig {
+
+    border-radius: 48px;
+    margin-left: 150px;
+    margin-right: 150px;
+
+}
+
+.event-title {
+    text-align: center;
+    padding-left: 160px;
+    padding-right: 142px;
+    padding-top: 50px;
+    border-radius: 14px;
+     border: 1px solid #F2EDED;
+     margin-left: 151px;
+     margin-top: 137px;
+     margin-right: 159px;
+     
+}
+
+.get {
+    margin-bottom: 20px;
+}
+
+.ready {
+    text-align: center;
+    padding-left: 160px;
+    padding-right: 142px;
+    padding-top: 50px;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 1);
+}
+
+.this {
+    color: rgba(0, 0, 0, 0.5);
+}
+/* form */
+.login-title{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 93px;
+    margin-left: 150px;
+    margin-right: 150px;
+   
+}
+.login-form input[type="text"],
+.login-form input[type="email"],
+.login-form textarea {
+  height: 60px;
+  border-radius: 5px;
+  background-color: white;
+  display: block;
+  width: 300px;
+  padding: 10px 20px;
+  margin-bottom: 24px;
+  box-sizing: border-box;
+  border: 2px solid #F2EDED
+}
+.login-form textarea{
+    height: 100px;
+    border: 2px solid #F2EDED
+}
+.last-btn{
+    background-color: #4E47FF;
+    color: white;
+    width: 300px;
+    border-radius: 10px;
+    padding: 12px 36px;
+}
+
+
+/* footer */
+.logo-color{
+     text-align: center;
+    padding-left: 160px;
+    padding-right: 142px;
+    padding-top: 50px;
+    font-size: 100px;
+    font-weight: bold;
+    color: rgba(78, 71, 255, 1);
+}
+.f-description{
+    text-align: center;
+     
+    color: rgba(137, 135, 161, 1);
+}
+nav ul li {
+  
+    list-style: none;
+    margin: 20px;
+
+}
+
+nav li a {
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    
+}
+.ul-pos{
+     justify-content: center;
+}
