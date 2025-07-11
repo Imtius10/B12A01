@@ -238,7 +238,7 @@ a{
     padding-right: 142px;
     padding-top: 50px;
     border-radius: 14px;
-    border: 1px solid #F2EDED;
+    border: 1px solid#F2EDED;
     margin-left: 151px;
     margin-top: 137px;
     margin-right: 159px;
@@ -258,7 +258,7 @@ a{
     font-weight: bold;
     color: rgba(0, 0, 0, 1);
 }
-
+ 
 .this {
     color: rgba(0, 0, 0, 0.5);
 }
@@ -366,4 +366,10 @@ a{
 label {
     display: inline-block;
     margin-bottom: 5px;
+}
+.f-bg {
+  background-color: #FFFFFF;
+  border-top: 1px solid#F2EDED; 
+  margin-top: 10px;
+  padding: 40px;              
 }
