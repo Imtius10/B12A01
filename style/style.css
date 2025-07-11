@@ -129,3 +129,41 @@
 }
 
 /* Review section */
+.review-content{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 151px;
+    margin-right: 149px;
+}
+/* shared */
+.text-item{
+    font-size: 30px;
+    font-weight: 700;
+     padding-left: 24px;
+}
+ .r-description{
+    font-size: 20px;
+    font-weight: 300;
+    padding-left: 24px;
+ }
+ .pad{
+    padding-left: 24px; 
+ }
+.user-review {
+  display: flex;             
+  align-items: center;         
+  gap: 15px;                   
+}
+ .reviewer-name{
+     padding-left: 40px;
+     font-weight: 700;
+     color: rgba(117, 117, 117, 1);
+ }
+
+ .r-img{
+    border-radius: 100px;
+ }
+ .date{
+    font-size: 20px;
+    color: rgba(179, 179, 179, 1);
+ }
